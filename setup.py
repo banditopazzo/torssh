@@ -14,7 +14,9 @@ setup(
     description="Access SSH servers over Tor",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    scripts=['tor_ssh'],                             # The name of your script, and also the command you'll be using for calling it
+    entry_points = {
+        'console_scripts': ['torssh=torssh.command_line:main'],
+    },
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
