@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 
-import io
-import pycurl
 import os
-import time
 import sys
 import signal
 
