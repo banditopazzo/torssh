@@ -15,7 +15,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     entry_points = {
-        'console_scripts': ['torssh=torssh.command_line:main'],
+        'console_scripts': ['torssh=torssh.cli:ssh'],
     },
     packages=find_packages(),
     classifiers=[
