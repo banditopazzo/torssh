@@ -37,7 +37,7 @@ def close_tor_process(tor_process):
       print(term.format("\nTor Service Stopped Correctly\n", term.Attr.BOLD, term.Color.BLUE))
 
 
-def tor_wrap(cmd, args, socks_port = 7070):
+def tor_wrap(cmd, args, socks_port = 9050):
   check_tor_installation()
   tor_process = None
 
