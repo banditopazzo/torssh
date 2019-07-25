@@ -11,7 +11,8 @@ setup(
     install_requires=[
         "stem >= 1.7.1",
     ],
-    description="Access SSH servers over Tor",
+    description="A simple utility to use SSH and SCP over Tor",
+    url="https://github.com/banditopazzo/torssh",
     long_description=long_description,
     long_description_content_type="text/markdown",
     entry_points = {
