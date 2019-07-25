@@ -9,3 +9,6 @@ def parse_args():
 
 def ssh():
   torssh.tor_wrap('ssh', parse_args())
+  
+def scp():
+  torssh.tor_wrap('scp', parse_args())
